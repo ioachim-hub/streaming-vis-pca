@@ -61,11 +61,17 @@ Setup
 
     * Note: Replace apt commands based on your Linux OS.
 
+* You will need a C library called Eigen
+```sh
+    sudo dnf install eigen3-devel-3.4.0-8.fc37
+```
+
 * Install the modules with pip3.
 
     `pip3 install .`
 
     * Note: If installation does not work, check setup.py and replace c++ commands based on your environment.
+
 
 #### Windows (tested on Windows 10, <span style="color:#ff8888">requiring MSVC as a C++ compiler</span>)
 * Install required compiler and library
